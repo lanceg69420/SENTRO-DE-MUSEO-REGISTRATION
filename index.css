@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background-color: #F4B619;
+    }
+
+    .main-container {
+      display: flex;
+      width: 95vw;
+      height: 90vh;
+      margin: 5vh auto;
+      background-color: #002154;
+      border-radius: 40px;
+      overflow: hidden;
+      padding: 40px;
+      gap: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      font-family: 'Roboto Mono', monospace;
+      letter-spacing: -1px;
+      margin-bottom: -35px;
+    }
+
+    .sdm {
+      font-size: 30px;
+      letter-spacing: 5px;
+      color: #002154;
+      -webkit-text-stroke: 0.1px #f5b000;
+    }
+
+    .tag {
+      font-size: 20px;
+      font-family: 'Cal Sans', sans-serif;
+      margin-top: -30px;
+      margin-bottom: -10px;
+      letter-spacing: 1px;
+    }
+
+    .left-panel {
+      flex: 1;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: 'Bowlby One Sc', sans-serif;
+      padding-left: 30px;
+    }
+
+    .left-panel h1 {
+      font-size: 50px;
+      margin: 0;
+      color: #fff;
+    }
+
+    .left-panel .big {
+      font-family: 'Bowlby One Sc', sans-serif;
+      font-size: 160px;
+      color: #f5b000;
+      position: relative;
+      letter-spacing: 20px;
+      line-height: 100%;
+    }
+
+    .left-panel .expo {
+      color: #001f4d;
+      -webkit-text-stroke: 0.1px #f5b000;
+      letter-spacing: 5px;
+    }
+
+    .left-panel .year {
+      color: white;
+      letter-spacing: 5px;
+    }
+
+    .left-panel .sub {
+      font-size: 14px;
+      line-height: 0.11vh;
+      font-family: 'Bowlby One Sc', sans-serif;
+    }
+
+    .sub .p {
+      font-family: 'Cal Sans';
+    }
+
+    .left-panel .lable {
+      font-size: 20px;
+      letter-spacing: 1px;
+      margin-top: -50px;
+      font-family: 'Cal sans';
+      margin-top: -45px;
+    }
+
+    .logo {
+      height: 40px;
+      margin-bottom: 50px;
+      margin-left: -10px;
+    }
+
+    .logos {
+      margin-top:30px;
+      display: flex;
+      gap: 10px;
+      height: 120px;
+      margin-left: 0px;
+    }
+
+    .logos img {
+      height: 50px;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    .right-panel {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Bowlby One Sc', sans-serif;
+    }
+
+    .form-wrapper {
+      background-color: white;
+      padding: 40px;
+      border-radius: 30px;
+      width: 1000px;
+      max-width: 480px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      height: 100%;
+      max-height: 600px;
+      margin-right: 0;
+      margin-left: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h2 {
+      text-align: left;
+      color: #002154;
+      margin-bottom: 25px;
+      font-size: 24px;
+      letter-spacing: 2px;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 120px;
+    }
+
+    input, select {
+      padding: 12px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 8px;
+      background-color: #e8dcdc;
+      font-family: 'Georgia', serif;
+      font-style: italic;
+    }
+
+    button {
+      background-color: #002154;
+      color: #F4B619;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      font-family: 'Cal Sans', serif;
+      font-size: 14px;
+    }
+
+    button:hover {
+      background-color: #00163a;
+    }
+
+    .info {
+      background: #ddd7d7;
+      color: #596c79;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1.5px solid #b87333;
+      text-align: justify;
+      font-family: 'Georgia', serif;
+      margin-bottom: 30px;
+    }
+
+    #qrcode {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      padding: 10px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .back-button {
+      margin-top: 20px;
+      width: 100%;
+      background-color: #002154;
+      color: #F4B619;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      font-family: 'Georgia', serif;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .back-button:hover {
+      background-color: #00163a;
+    }
+    strong {
+      color: #002154;
+    }
+    .icon-button {
+      background-color: #002154;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    .icon-button img {
+      width: 24px;
+      height: 24px;
+    }
+    .button-group {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .button-group .icon-button,
+    .button-group .back-button {
+      flex: 1;
+    }
+    .star {
+      height: 50px;
+      position: relative;
+      left: -70px;
+      bottom: 90px;
+    }
